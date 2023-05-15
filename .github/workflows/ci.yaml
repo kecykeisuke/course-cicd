@@ -8,7 +8,7 @@ jobs:
       - name: hello
       - run: |
           echo "hello world"
-      -name: run python script
-       run: |
+      - name: run python script
+        run: |
           pip install -r requirements.txt
           python ci.py
